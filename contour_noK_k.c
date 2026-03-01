@@ -8,7 +8,7 @@ FILE *fp; //*fopen();
 int main()
 {
 
-char out[30] ="contour_noK.csv" ;
+char out[30] ="contour_noK_k.csv" ;
 int counter,counter1, I,J,i,j,N,innerloop,C,printcycles,K,klim;
 
 double 
@@ -36,7 +36,7 @@ for(lk = -12.0;lk<-8;lk+=0.2)		{
 k = pow(10.0,lk);
 r = 0.000241;
 tiny = 0.0;
-die = .001;
+die = 0.0;
 
 
 
